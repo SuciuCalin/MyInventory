@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <!--list_item.xml colors-->
+    <color name="ListItem_ProductName_TextColor">@android:color/black</color>
+    <color name="ListItem_QuantityText_TextColor">@android:color/darker_gray</color>
+
+    <!--activity_editor.xml colors-->
+    <color name="ActivityEditor_ProductPictureText_TextColor">@android:color/black</color>
+</resources>

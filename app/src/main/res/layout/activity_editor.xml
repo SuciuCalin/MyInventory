@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityEditor_ParentLayout"
+    tools:context="com.example.android.myinventory.EditorActivity">
+
+    <LinearLayout style="@style/ActivityEditor_ChildLayout">
+
+        <ImageView
+            android:id="@+id/edit_productPicture"
+            style="@style/ActivityEditor_ProductPicture" />
+
+        <TextView
+            android:id="@+id/product_pictureText"
+            style="@style/ActivityEditor_ProductPictureText" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/ActivityEditor_ChildLayout">
+
+        <LinearLayout style="@style/ActivityEditor_CategoryLayout">
+
+            <TextView
+                style="@style/ActivityEditor_Category"
+                android:text="@string/category_name" />
+
+            <TextView
+                style="@style/ActivityEditor_Category"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/category_price" />
+
+            <TextView
+                style="@style/ActivityEditor_Category"
+                android:layout_marginTop="8dp"
+                android:text="@string/category_quantity" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/ActivityEditor_EditCategoryLayout">
+
+            <EditText
+                android:id="@+id/edit_productName"
+                style="@style/ActivityEditor_EditCategory"
+                android:hint="@string/hintName"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/edit_productPrice"
+                style="@style/ActivityEditor_EditCategory"
+                android:hint="@string/hintPrice"
+                android:inputType="numberDecimal" />
+
+            <LinearLayout style="@style/ActivityEditor_ChildLayout">
+
+                <Button
+                    android:id="@+id/button_minus"
+                    style="@style/ActivityEditor_QuantityButtons"
+                    android:onClick="minusButton"
+                    android:text="@string/button_minus" />
+
+                <EditText
+                    android:id="@+id/edit_productQuantity"
+                    style="@style/AvtivityEditor_EditQuantity"
+                    android:hint="@string/hintQty"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:id="@+id/button_plus"
+                    style="@style/ActivityEditor_QuantityButtons"
+                    android:onClick="plusButton"
+                    android:text="@string/button_plus" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

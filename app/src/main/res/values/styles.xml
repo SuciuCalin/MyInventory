@@ -1,0 +1,199 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--activity_main.xml styles-->
+    <style name="ActivityMain_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ActivityMain_EmptyTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">@dimen/ActivityMain_EmptyTextView_PaddingTop</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/empty_text</item>
+    </style>
+
+    <style name="ActivityMain_Fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_margin">@dimen/ActivityMain_Fab_Margin</item>
+        <item name="android:src">@android:drawable/ic_input_add</item>
+    </style>
+
+    <style name="ActivityMain_RecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <!--list_item.xml styles-->
+    <style name="ListItem_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ListItem_ParentLayout_Height</item>
+        <item name="android:padding">@dimen/ListItem_ParentLayout_Padding</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ListItem_ProductImageView">
+        <item name="android:layout_width">@dimen/ListItem_ProductImageView_Width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/ListItem_ProductImageView_Weight</item>
+    </style>
+
+    <style name="ListItem_ProductInfoLayout">
+        <item name="android:layout_width">@dimen/ListItem_ProductInfoLayout_Width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/ListItem_ProductInfoLayout_Weight</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/ListItem_ProductInfoLayout_Margins</item>
+        <item name="android:layout_marginRight">@dimen/ListItem_ProductInfoLayout_Margins</item>
+    </style>
+
+    <style name="ListItem_ProductName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/ListItem_ProductName_TextColor</item>
+        <item name="android:paddingBottom">@dimen/ListItem_ProductName_PaddingBottom</item>
+    </style>
+
+    <style name="ListItem_ProductQtyLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ListItem_QuantityText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">@string/category_quantity</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/ListItem_QuantityText_TextColor</item>
+        <item name="android:layout_marginRight">@dimen/ListItem_QuantityText_MarginRight</item>
+    </style>
+
+    <style name="ListItem_ProductQuantity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/ListItem_QuantityText_TextColor</item>
+    </style>
+
+    <style name="ListItem_PriceLayout">
+        <item name="android:layout_width">@dimen/ListItem_PriceLayout_Width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/ListItem_PriceLayout_Weight</item>
+        <item name="android:layout_marginLeft">@dimen/ListItem_PriceLayout_MarginLeft</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ListItem_ProductPrice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/ListItem_ProductPrice_TextSize</item>
+        <item name="android:fontFamily">sans-serif-dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ListItem_BuyButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/buy_button</item>
+    </style>
+
+    <!--activity_editor.xml styles-->
+    <style name="ActivityEditor_ParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/ActivityEditor_ParentLayout_Margin</item>
+    </style>
+
+    <style name="ActivityEditor_ChildLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/ActivityEditor_ChildLayout_Margin</item>
+    </style>
+
+    <style name="ActivityEditor_ProductPicture">
+        <item name="android:layout_width">@dimen/ActivityEditor_ProductPicture_WidthAndHeight</item>
+        <item name="android:layout_height">@dimen/ActivityEditor_ProductPicture_WidthAndHeight
+        </item>
+        <item name="android:src">@android:drawable/ic_input_add</item>
+    </style>
+
+    <style name="ActivityEditor_ProductPictureText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/ActivityEditor_ProductPictureText_TextSize</item>
+        <item name="android:textColor">@color/ActivityEditor_ProductPictureText_TextColor</item>
+    </style>
+
+    <style name="ActivityEditor_CategoryLayout">
+        <item name="android:layout_width">@dimen/ActivityEditor_CategoryLayout_Width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/ActivityEditor_CategoryLayout_Weight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ActivityEditor_Category">
+        <item name="android:textSize">@dimen/ActivityEditor_Category_TextSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingTop">@dimen/ActivityEditor_Category_PaddingTop</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="ActivityEditor_EditCategoryLayout">
+        <item name="android:layout_width">@dimen/ActivityEditor_CategoryLayout_Width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/ActivityEditor_EditCategoryLayout_Weight</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ActivityEditor_EditCategory">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/ActivityEditor_EditCategory_TextSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="ActivityEditor_QuantityButtons">
+        <item name="android:layout_width">@dimen/ActivityEditor_QuantityButtons_Width</item>
+        <item name="android:layout_height">@dimen/ActivityEditor_QuantityButtons_Height</item>
+        <item name="android:layout_weight">@integer/ActivityEditor_QuantityButtons_Weight</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/holo_green_light</item>
+        <item name="android:textSize">@dimen/ActivityEditor_QuantityButtons_TextSize</item>
+    </style>
+
+    <style name="AvtivityEditor_EditQuantity">
+        <item name="android:layout_width">@dimen/AvtivityEditor_EditQuantity_Width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/AvtivityEditor_EditQuantity_Weight</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/AvtivityEditor_EditQuantity_TextSize</item>
+    </style>
+</resources>

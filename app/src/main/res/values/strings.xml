@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">My Inventory</string>
+
+    <!--activity_main.xml strings-->
+    <string name="empty_text">Start by adding a new product…</string>
+
+    <!--list_item.xml strings-->
+    <string name="namePlaceholder">Product Name</string>
+    <string name="quantityPlaceholder">5</string>
+    <string name="pricePlaceholder">25.5</string>
+    <string name="buy_button">Buy</string>
+
+    <!--activity_editor.xml strings-->
+    <string name="category_name">Name</string>
+    <string name="category_price">Price</string>
+    <string name="category_quantity">Quantity</string>
+    <string name="hintName">Name</string>
+    <string name="hintPrice">Price</string>
+    <string name="hintQty">Quantity</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
+    <string name="picture_productAdd">Select a picture for the product</string>
+    <string name="picture_productEdit">Change the product picture</string>
+
+    <!--menu_editor.xml strings-->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_order">Order</string>
+
+    <!--menu_main.xml strings-->
+    <string name="insert_dummy">Insert Dummy Data</string>
+    <string name="delete_all">Delete All Products</string>
+
+    <!--Toast strings-->
+    <string name="toast_productNameReq">Product name required</string>
+    <string name="toast_productPicReq">Product picture required</string>
+    <string name="toast_productQtyReq">Product quantity required</string>
+    <string name="toast_productPriceReq">Product price required</string>
+    <string name="toast_noItems">No items in stock</string>
+    <string name="toast_save_error">Error with saving product</string>
+    <string name="toast_save_success">Product saved</string>
+    <string name="toast_delete_success">Product deleted</string>
+    <string name="toast_delete_error">Error with deleting product</string>
+    <string name="toast_quantity_error">Cannot decrease quantity</string>
+
+    <!--showUnsavedChangesDialog() method strings-->
+    <string name="unsaved_changes_dialog">Discard your changes and quit editing?</string>
+    <string name="discard_changes_dialog">Discard</string>
+    <string name="edit_changes_dialog">Keep Editing</string>
+
+    <!--order() method strings-->
+    <string name="order_subject">New Order:</string>
+    <string name="order_body">Dear Supplier, \nWe need a new order of:</string>
+
+    <!--dialog message strings-->
+    <string name="dialog_delete">Delete this product?</string>
+    <string name="dialog_positiveButton">Delete</string>
+    <string name="dialog_negativeButton">Cancel</string>
+
+    <!--insertProduct() method strings-->
+    <string name="dummyName">Laptop</string>
+    <string name="dummyImageUri">android.resource://com.example.android.myinventory/drawable/laptop</string>
+
+    <!--EditorActivity.java title strings for onCreate()-->
+    <string name="title_productAdd">Add Product</string>
+    <string name="title_productEdit">Edit Product</string>
+
+    <!--openImageSelection() method strings-->
+    <string name="intentType">image/*</string>
+    <string name="selectPicture">Select Picture</string>
+</resources>

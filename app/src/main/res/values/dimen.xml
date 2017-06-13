@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--activity_main.xml dimens-->
+    <dimen name="ActivityMain_EmptyTextView_PaddingTop">16dp</dimen>
+    <dimen name="ActivityMain_Fab_Margin">16dp</dimen>
+
+    <!--list_item.xml dimens-->
+    <dimen name="ListItem_ParentLayout_Height">100dp</dimen>
+    <dimen name="ListItem_ParentLayout_Padding">16dp</dimen>
+    <dimen name="ListItem_ProductImageView_Width">0dp</dimen>
+    <integer name="ListItem_ProductImageView_Weight">1</integer>
+    <dimen name="ListItem_ProductInfoLayout_Width">0dp</dimen>
+    <integer name="ListItem_ProductInfoLayout_Weight">3</integer>
+    <dimen name="ListItem_ProductInfoLayout_Margins">16dp</dimen>
+    <dimen name="ListItem_ProductName_PaddingBottom">16dp</dimen>
+    <dimen name="ListItem_QuantityText_MarginRight">8dp</dimen>
+    <dimen name="ListItem_PriceLayout_Width">0dp</dimen>
+    <integer name="ListItem_PriceLayout_Weight">1</integer>
+    <dimen name="ListItem_PriceLayout_MarginLeft">16dp</dimen>
+    <dimen name="ListItem_ProductPrice_TextSize">16sp</dimen>
+
+    <!--activity_editor.xml dimens-->
+    <dimen name="ActivityEditor_ParentLayout_Margin">16dp</dimen>
+    <dimen name="ActivityEditor_ChildLayout_Margin">8dp</dimen>
+    <dimen name="ActivityEditor_ProductPicture_WidthAndHeight">100dp</dimen>
+    <dimen name="ActivityEditor_ProductPictureText_TextSize">16sp</dimen>
+    <dimen name="ActivityEditor_CategoryLayout_Width">0dp</dimen>
+    <integer name="ActivityEditor_CategoryLayout_Weight">1</integer>
+    <dimen name="ActivityEditor_Category_TextSize">16sp</dimen>
+    <dimen name="ActivityEditor_Category_PaddingTop">8dp</dimen>
+    <dimen name="ActivityEditor_EditCategoryLayout_Width">0dp</dimen>
+    <integer name="ActivityEditor_EditCategoryLayout_Weight">1</integer>
+    <dimen name="ActivityEditor_EditCategory_TextSize">16sp</dimen>
+    <dimen name="ActivityEditor_QuantityButtons_Width">0dp</dimen>
+    <dimen name="ActivityEditor_QuantityButtons_Height">40dp</dimen>
+    <integer name="ActivityEditor_QuantityButtons_Weight">1</integer>
+    <dimen name="ActivityEditor_QuantityButtons_TextSize">16sp</dimen>
+    <dimen name="AvtivityEditor_EditQuantity_Width">0dp</dimen>
+    <integer name="AvtivityEditor_EditQuantity_Weight">2</integer>
+    <dimen name="AvtivityEditor_EditQuantity_TextSize">16sp</dimen>
+</resources>

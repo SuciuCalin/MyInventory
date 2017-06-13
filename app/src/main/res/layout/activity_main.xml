@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the list of products -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityMain_ParentLayout"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        style="@style/ActivityMain_RecyclerView" />
+
+    <!-- Empty view for the list -->
+    <TextView
+        android:id="@+id/empty_textView"
+        style="@style/ActivityMain_EmptyTextView"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        style="@style/ActivityMain_Fab" />
+
+</RelativeLayout>
